@@ -67,4 +67,3 @@ def turn (board)
 #      move_true = valid_move?(board,desired_position)
     end
   end
-end
