@@ -10,4 +10,3 @@ display_board(board)
 
 #Now that we have set the empty boards lets start with doing turns
 response = turn(board)
-
