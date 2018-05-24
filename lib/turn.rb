@@ -56,13 +56,6 @@ def turn (board)
     move(board,desired_position)
     display_board(board)
   else
-#    return false
-#    until move_true = true
-#      puts "Please enter 1-9:"
-#      intial_input = gets.strip
-#      input = intial_input.to_i
-#      desired_position = input_to_index(input)
-#      move_true = valid_move?(board,desired_position)
-#    end
+    turn(board)
   end
 end
