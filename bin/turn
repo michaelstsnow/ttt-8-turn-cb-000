@@ -9,6 +9,5 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
 #Now that we have set the empty boards lets start with doing turns
-while response = false
-  response = turn(board)
-end
+response = turn(board)
+
