@@ -65,5 +65,6 @@ def turn (board)
 #      input = intial_input.to_i
 #      desired_position = input_to_index(input)
 #      move_true = valid_move?(board,desired_position)
-    end
+#    end
   end
+end
