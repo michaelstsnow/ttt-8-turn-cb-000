@@ -53,8 +53,8 @@ def turn (board)
   intial_input = gets.strip
   desired_position = input_to_index(intial_input.to_i)
   if valid_move?(board,desired_position)
-    new_board=move(board,desired_position)
-    display_board(new_board)
+    move(board,desired_position)
+    display_board(board)
   else
 #    return false
 #    until move_true = true
