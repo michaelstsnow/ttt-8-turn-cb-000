@@ -54,7 +54,7 @@ def turn (board)
   desired_position = input_to_index(intial_input.to_i)
   if valid_move?(board,desired_position)
     move(board,desired_position,character)
-    display_board(new_board)
+    display_board(board)
   else
 #    return false
 #    until move_true = true
